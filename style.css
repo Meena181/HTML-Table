@@ -1,0 +1,72 @@
+*{
+	padding:0;
+	margin:0;
+}
+th{
+	width:190px;
+	height:80px;
+	text-align:center;
+	text-transform:capitalize;
+	color:white;
+}
+th:nth-child(4n+1){
+	width:390px
+}
+td{
+	height:50px;
+	text-align:center;
+}
+th:nth-child(4n+2){
+	background:#fc461e;
+}
+th:nth-child(4n+3){
+	background:#2893fb;
+}
+th:nth-child(4n+4){
+	background:#108081;
+}
+.box{
+	width: 112px;
+    height: 42px;
+    background-color: red;
+    line-height: 42px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white
+}
+.box1{
+	background:#fc461e;
+
+}
+.box2{
+	background:#2893fb;
+}
+.box3{
+	background:#108081;
+}
+.fa-check{
+	    color: green;
+    font-size: 25px;
+}
+.fa-xmark{
+	color: #f30909;
+    font-size: 25px;
+}
+table{
+	width: 90vw;s
+    height: 90vh;
+    border-collapse: collapse;
+    
+}
+body{
+	width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around
+}
+tr{
+	border:1px solid #8080804a;
+}
+
+
+
